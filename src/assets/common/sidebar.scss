@@ -1,0 +1,135 @@
+
+
+.sidebar {
+  height: 100vh;
+  width: auto;
+  position: sticky;
+  top: 56px;
+}
+
+.sidebar .sidebarMenu {
+  cursor: pointer;
+  margin-right: 194px;
+}
+
+.sidebar .sidebarlist {
+  height: 100vh;
+  width: 16vw;
+  overflow-y: auto;
+  cursor: pointer;
+}
+.sidebar .sidebarlist hr{
+  margin: 0 16px 0 16px;
+  opacity: 0.5;
+}
+.sidebarlist::-webkit-scrollbar {
+  width: 6px;
+  background-color: transparent;
+}
+.sidebarlist::-webkit-scrollbar-thumb {
+  background-color: #909090;
+  border-radius: 100px;
+  visibility: hidden;
+}
+.sidebarlist:hover::-webkit-scrollbar-thumb {
+  visibility: visible;
+}
+
+.sidebarItem {
+  display: flex;
+  padding: 12px 0px;
+}
+.sidebarItem p {
+  font-size: 14px;
+  padding-left: 24px;
+  padding-top: 4px;
+}
+.hover:hover {
+  background-color: #d5d5d5f7;
+}
+.sidebarItem i {
+  padding-left: 24px;
+}
+.sidebar .sidebarItem button {
+  color: #3e5fd4;
+  border-color: #3e5fd4;
+  padding: 8px 16px;
+  font-size: 20px;
+  display: flex;
+} 
+.sidebar .sidebarItem button .iconbtn {
+  margin-right: 12px;
+}
+.sidebar .sidebarItem button .iconbtn {
+  margin-right: 12px;
+}
+.sidebarMenu {
+  padding: 20px 0 20px 24px;
+  margin-top: -62px;
+}
+.sidebar .sidebarSummary {
+  padding: 12px 0px 16px 24px;
+}
+.sidebar .sidebarSummary p {
+  font-size: 10px;
+  padding-top: 4px;
+  text-align: center;
+  margin-left: -24px;
+}
+.sidebar-content {
+  display: flex;
+}
+
+//content
+.sidebar-content .content {
+  padding-top: 58px;
+  flex: 1;
+  padding-left: 16vw;
+}
+.sidebar-content .content .hashtag {
+  display: flex;
+  justify-content: space-evenly;
+}
+.sidebar-content .content .hashtag button {
+  font-size: 17px;
+  padding: 8px;
+  border-radius: 20px;
+  border: none;
+}
+.sidebar-content .content .hashtag button:hover {
+  background-color: black;
+  color: #ffff;
+}
+
+.sidebar-content .content .list_video {
+  display: flex;
+  flex-wrap: wrap;
+}
+.sidebar-content .content .list_video .video-item {
+  flex-basis: 25%;
+  padding: 43px 28px 32px 38px;
+}
+.sidebar-content .content .list_video img {
+  width: 50%;
+}
+
+.zoomout {
+  min-width: 72px;
+}
+
+.start-detailpage {
+  display: flex;
+  height: 56px;
+  align-items: center;
+  position: relative;
+}
+
+.start-detailpage .start__menu{
+  margin-left: 20px;
+}
+
+.start-detailpage .start__text{
+  position: absolute;
+  top: 0;
+  left: 160px;
+}

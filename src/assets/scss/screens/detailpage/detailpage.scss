@@ -1,0 +1,120 @@
+.detail_page {
+    display: flex;
+    overflow: hidden;
+}
+.detail_page iframe {
+    width: 890px;
+    height: 500px;
+    margin-left: 76px;
+    margin-top: 30px;
+    border: none;
+}
+.detail_page h3,
+.detail_page p {
+    margin-left: 76px;
+    padding-top: 12px;
+}
+.detail_page .detail_page-list-video img {
+    width: 170px;
+    height: 94px;
+    object-fit: cover;
+}
+
+.detail_page .detail_page-list-video {
+    margin-left: 26px;
+    margin-top: 32px;
+}
+
+.detail_page .detail_page-list-video .list-video-item .list-video-item__frames{
+    display: flex;
+    padding: 4px 0px;
+    padding-right: 528px;
+    cursor: pointer;
+    color: black;
+}
+
+.detail_page .detail_page-list-video .list-video-item .context-video {
+    margin-left: 10px;
+    float: left;
+    width: 220px;
+}
+.detail_page .detail_page-list-video .list-video-item .context-video{
+    margin-top: -4px;
+}
+.detail_page .detail_page-list-video .list-video-item h4 {
+    font-size: 14px;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    overflow: hidden;
+}
+.detail_page .detail_page-list-video .list-video-item p,
+.detail_page .detail_page-list-video .list-video-item span {
+    font-size: 12px;
+}
+.detail_page .detail_page-list-video .list-video-item p {
+    margin-left: 0px;
+}
+.detail_page-list-video .mainhashtag {
+    display: flex;
+    flex-direction: row;
+    width: 900px;
+}
+.detail_page-list-video .mainhashtag .hashtag button {
+    padding: 8px 12px 8px 12px;
+    margin-right: 24px;
+    border-radius: 100px;
+    margin-bottom: 8px;
+    border: none;
+}
+.detail_page-list-video .mainhashtag .hashtag button:hover {
+    background-color: black;
+    color: #fff;
+}
+.detail_page .detail_page-video .infor_video {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.detail_page .detail_page-video .infor_video h3 {
+    margin-left: 0px;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.detail_page .detail_page-video .infor_video span {
+    font-size: 12px;
+}
+
+.detail_page .detail_page-video .infor_video img {
+    height: 48px;
+    width: 48px;
+    border-radius: 100px;
+    margin-left: 76px;
+    margin-top: 12px;
+    object-fit: cover;
+    margin-right: 24px;
+}
+.detail_page .detail_page-video .infor_video .channel {
+    margin-left: -588px;
+    line-height: 16px;
+    margin-top: 8px;
+}   
+.detail_page .detail_page-video .infor_video button {
+    padding: 10px 22px 10px 22px;
+    margin-top: 12px;
+    margin-bottom: 12px;
+    font-size: 14px;
+    border: none;
+    background-color: #c00;
+    color: #fff;
+    margin-right: 12px;
+    cursor: pointer;
+}
+
+.detail_page .detail_page-video .show_video h3{
+    font-size: 18px;
+    font-weight: 400;
+    margin-top: 20px;
+}

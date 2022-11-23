@@ -1,0 +1,10 @@
+export const LOADING = 'LOADING';
+export const GET_DATA = 'GET_DATA';
+export const ERROR = 'ERROR';
+export const CLICK_VIDEO = 'CLICK_VIDEO';
+export const SET_SHOW = 'SET_SHOW';
+export const CHANGE_INPUT = 'CHANGE_INPUT';
+export const KEY_DOWN = 'KEY_DOWN';
+export const GET_DATA_SEARCH = 'GET_DATA_SEARCH';
+export const CLICK_SEARCH = 'CLICK_SEARCH';
+export const GET_DATA_ITEM = 'GET_DATA_ITEM';

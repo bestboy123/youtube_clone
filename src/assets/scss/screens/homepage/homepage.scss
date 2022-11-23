@@ -1,0 +1,33 @@
+.homepage {
+    display: flex;
+}
+
+.homepage .contenthomepage .mainhashtag {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    position: sticky;
+    top: 56px;
+    background-color: #fff;
+}
+
+.homepage .contenthomepage .hashtag {
+    display: flex;
+    padding: 16px;
+    justify-content: space-around;
+}
+.homepage .contenthomepage .hashtag button {
+    border-radius: 100px;
+    font-size: 14px; 
+    padding: 8px 14px;
+    margin: 0 8px;
+    border: none;
+    cursor: pointer;
+    transition: 0.4s;
+    background-color: #f2f2f2;
+}
+
+.homepage .contenthomepage .hashtag button:hover {
+    background-color: #ccc;
+    transition: 0.4s;
+}
